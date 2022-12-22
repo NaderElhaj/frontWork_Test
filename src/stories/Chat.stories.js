@@ -6,9 +6,9 @@ export default{
 }
 const Template = (args) => <Chat {...args} />
   
-export  const Red = Template.bind({})
+export  const Orange = Template.bind({})
 
-Red.args = {
+Orange.args = {
     backgroundColor : "#4643D3",
 size : "md",
 avatar : "/images/avatar.png",
